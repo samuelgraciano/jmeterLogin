@@ -1,0 +1,64 @@
+CONCLUSIONES
+
+Se realizó una prueba de carga sobre el servicio de autenticación de FakeStore API utilizando Apache JMeter 5.6.3. Los datos de entrada fueron parametrizados mediante un archivo CSV y consumidos dinámicamente durante la ejecución de las pruebas.
+
+Para evaluar el comportamiento del servicio se ejecutaron dos escenarios con diferentes niveles de concurrencia: 20 hilos y 75 hilos.
+
+ESCENARIO 1 - 20 HILOS
+
+Resultados:
+
+- Total de solicitudes ejecutadas: 200
+- Throughput: 10.92 TPS
+- Tiempo promedio de respuesta: 736.56 ms
+- Tasa de error: 2.50 %
+- Tiempo máximo registrado: 2813 ms
+
+Análisis:
+
+- La aplicación respondió correctamente a la mayoría de las solicitudes.
+- La tasa de error se mantuvo por debajo del 3 % exigido.
+- El tiempo promedio de respuesta permaneció por debajo del umbral de 1.5 segundos establecido para la prueba.
+- Se presentaron algunas solicitudes que superaron el límite de 1500 ms definido en la Duration Assertion.
+- El throughput alcanzado no fue suficiente para cumplir el objetivo mínimo de 20 TPS.
+
+Conclusión del escenario:
+
+Aunque la estabilidad de la aplicación fue adecuada, la configuración de 20 hilos no fue suficiente para generar la carga necesaria y alcanzar el objetivo de rendimiento solicitado.
+
+ESCENARIO 2 - 75 HILOS
+
+Resultados:
+
+- Total de solicitudes ejecutadas: 750
+- Throughput: 47.01 TPS
+- Tiempo promedio de respuesta: 725.60 ms
+- Tasa de error: 2.13 %
+- Tiempo máximo registrado: 2166 ms
+
+Análisis:
+
+- El throughput superó ampliamente el objetivo mínimo requerido de 20 TPS.
+- La tasa de error se mantuvo dentro del rango aceptable, por debajo del 3 %.
+- Los tiempos promedio de respuesta se mantuvieron por debajo del límite definido para la prueba.
+- Los errores observados correspondieron principalmente a solicitudes que superaron el tiempo máximo permitido por la Duration Assertion.
+- No se evidenciaron errores masivos de autenticación ni indisponibilidad del servicio.
+
+COMPARATIVO DE RESULTADOS
+
+| Métrica | 20 Hilos | 75 Hilos |
+|----------|----------|----------|
+| TPS | 10.92 | 47.01 |
+| Tiempo Promedio | 736.56 ms | 725.60 ms |
+| Error Rate | 2.50 % | 2.13 % |
+| Cumple TPS ≥ 20 | No | Sí |
+| Cumple Error < 3 % | Sí | Sí |
+| Cumple Tiempo Promedio < 1.5 s | Sí | Sí |
+
+CONCLUSIÓN FINAL
+
+La ejecución con 75 hilos permitió cumplir satisfactoriamente los criterios de aceptación definidos para la prueba de carga.
+
+El servicio alcanzó un throughput de 47.01 TPS, superando significativamente el mínimo requerido de 20 TPS. Adicionalmente, mantuvo un tiempo promedio de respuesta de 725.60 ms y una tasa de error de 2.13 %, ambos dentro de los límites establecidos para la prueba.
+
+Con base en los resultados obtenidos, se concluye que el servicio de autenticación evaluado es capaz de soportar la carga configurada manteniendo niveles aceptables de rendimiento, estabilidad y disponibilidad, cumpliendo los objetivos planteados para el ejercicio.
