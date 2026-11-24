@@ -1,0 +1,40 @@
+2026-11-24 10:41:19,915 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-24 10:41:19,952 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2026-11-24 10:41:19,954 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2026-11-24 10:41:19,971 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-11-24 10:41:19,971 INFO o.a.j.JMeter: Version 5.6.3
+2026-11-24 10:41:19,972 INFO o.a.j.JMeter: java.version=25.0.5.0.2
+2026-11-24 10:41:19,972 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-11-24 10:41:19,972 INFO o.a.j.JMeter: os.name=Windows 10
+2026-11-24 10:41:19,972 INFO o.a.j.JMeter: os.arch=amd64
+2026-11-24 10:41:19,972 INFO o.a.j.JMeter: os.version=10.0
+2026-11-24 10:41:19,972 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-11-24 10:41:19,973 INFO o.a.j.JMeter: java.awt.headless=null
+2026-11-24 10:41:19,973 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-24 10:41:19,973 INFO o.a.j.JMeter: Available Processors =4
+2026-11-24 10:41:20,005 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-24 10:41:20,005 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-24 10:41:20,006 INFO o.a.j.JMeter: JMeterHome=C:\Users\graci\Desktop\SamuelGraciano\apache-jmeter-5.6.3
+2026-11-24 10:41:20,006 INFO o.a.j.JMeter: user.dir  =C:\Users\graci\Desktop\SamuelGraciano\apache-jmeter-5.6.3\bin
+2026-11-24 10:41:20,007 INFO o.a.j.JMeter: PWD       =C:\Users\graci\Desktop\SamuelGraciano\apache-jmeter-5.6.3\bin
+2026-11-24 10:41:20,037 INFO o.a.j.JMeter: IP: 192.168.1.96 Name: DESKTOP-C4U6JID FullName: 192.168.1.96
+2026-11-24 10:41:20,058 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2026-11-24 10:41:20,413 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2026-11-24 10:41:34,590 INFO o.a.j.s.FileServer: Default base='C:\Users\graci\Desktop\SamuelGraciano\apache-jmeter-5.6.3\bin'
+2026-11-24 10:41:34,595 INFO o.a.j.g.a.Load: Loading file: C:\Users\graci\Desktop\SamuelGraciano\apache-jmeter-5.6.3\bin\login-test.jmx
+2026-11-24 10:41:34,595 INFO o.a.j.s.FileServer: Set new base='C:\Users\graci\Desktop\SamuelGraciano\apache-jmeter-5.6.3\bin'
+2026-11-24 10:41:35,171 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-11-24 10:41:35,203 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-11-24 10:41:35,207 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-11-24 10:41:35,211 INFO o.a.j.s.SaveService: Loading file: C:\Users\graci\Desktop\SamuelGraciano\apache-jmeter-5.6.3\bin\login-test.jmx
+2026-11-24 10:41:35,257 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-24 10:41:35,257 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-24 10:41:35,257 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-24 10:41:35,257 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-24 10:41:35,257 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-11-24 10:41:35,258 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-11-24 10:41:35,838 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-11-24 10:41:35,838 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-11-24 10:41:35,839 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-11-24 10:41:35,839 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-11-24 10:41:36,255 INFO o.a.j.s.FileServer: Set new base='C:\Users\graci\Desktop\SamuelGraciano\apache-jmeter-5.6.3\bin'
